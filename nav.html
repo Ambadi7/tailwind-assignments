@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tailwindcss.com</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              fontFamily: {
+                Poppins: "Poppins",
+              },
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div>
+        <nav class="h-20 bg-slate-900 flex text-white justify-between pr-6">
+            <!-- left -->
+            <div class="ml-8 flex items-center gap-3">
+                <img class="h-8" src="./Tailwind CSS.png" alt="">
+                <p class="text-lg font-Poppins">tailwindcss</p>
+            </div>
+            <!-- Right -->
+            <div class="flex gap-6">
+                <div class="hidden lg:flex gap-6 items-center font-bold ">
+                    <ul class="flex gap-6 border-r border-slate-800 pr-6">
+                        <li>Docs</li>
+                        <li>Components</li>
+                        <li>Blog</li>
+                        <li class="">Showcase</li>
+                    </ul>
+                </div>
+                <!-- icons -->
+                <div class="  flex items-center gap-6  ">
+                  <div class="hidden lg:flex gap-6 items-center ">
+                    <div class="relative w-6 ">
+                        <i class="fa-regular fa-moon "></i>
+                        <div class="absolute bottom-1  right-0">
+                            
+                            <i class="fa-solid fa-plus fa-2xs"></i>
+                        </div>
+                    </div>
+                    <i class="fa-brands fa-github fa-lg"></i>
+                  </div>
+
+                    <div class="flex lg:hidden gap-6">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+</body>
+</html>
